@@ -4,6 +4,8 @@ def skip_elements(elements):
     i = 0
     y = 0
 
+    # Skip every other element in current list and write to new list
+    # 
     for i in elements:
         if y % 2 == 0:
             new_list.append(i)
